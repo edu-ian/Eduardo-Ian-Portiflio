@@ -20,26 +20,24 @@ export function Hero() {
           <span className="text-xs font-medium tracking-[0.2em] uppercase opacity-70">Disponível para novos projetos</span>
         </motion.div>
 
-        <motion.h1
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          className="text-5xl md:text-8xl font-display font-bold tracking-tight mb-8 leading-[1.05]"
-        >
-          Construindo o <span className="opacity-40 italic">Futuro</span> <br /> 
-          através do <span className="text-white">Código</span>.
-        </motion.h1>
+       <motion.h1
+  initial={{ opacity: 0, y: 40 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+  className="text-5xl md:text-8xl font-display font-bold tracking-tight mb-8 leading-[1.05]"
+> Conectando pontos.<br />
+  <span className="opacity-40 italic"> Criando </span> 
+   <span className="text-white">caminhos</span>.
+</motion.h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-          className="max-w-2xl mx-auto text-lg md:text-xl opacity-60 mb-12 font-light leading-relaxed"
-        >
-          Especializado em interfaces premium, animações fluidas e arquitetura escalável. 
-          Transformando ideias em experiências digitais memoráveis.
-        </motion.p>
-
+<motion.p
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+  className="max-w-2xl text-left md:text-center mx-auto text-lg md:text-xl opacity-60 mb-12 font-light leading-relaxed"
+>
+  Construo aplicações completas focando em arquitetura, performance e no valor prático do software.
+</motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -51,16 +49,13 @@ export function Hero() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-10 py-4 bg-white text-black font-semibold rounded-full group transition-all"
-          >
-            Ver Projetos
-            <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">→</span>
+          > Ver Projetos
           </motion.a>
           <motion.a
             href="#contact"
             whileHover={{ scale: 1.05 }}
             className="px-10 py-4 border border-white/20 rounded-full hover:bg-white/5 transition-all font-medium"
-          >
-            Entrar em Contato
+          > Entrar em Contato
           </motion.a>
         </motion.div>
       </div>

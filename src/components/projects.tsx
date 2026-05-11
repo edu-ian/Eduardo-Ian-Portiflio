@@ -9,11 +9,11 @@ import { cn } from '@/src/lib/utils';
 const projects = [
   {
     title: 'Foca Aqui',
-    description: 'Sistema de produtividade minimalista focado na técnica Pomodoro com dashboards analíticos avançados e foco total em UX.',
+    description: 'Sistema de produtividade minimalista focado na técnica Pomodoro com dashboards analíticos avançados. Projeto de TCC',
     tags: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
     image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1200&auto=format&fit=crop',
-    link: '#',
-    github: '#'
+    link: 'https://focus-up-2ecae.web.app/',
+    github: 'https://github.com/edu-ian/focus-up'
   },
   {
     title: 'Elite Analytics',

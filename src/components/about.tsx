@@ -1,9 +1,9 @@
 import { motion } from 'motion/react';
 
 const skills = [
-  'React', 'TypeScript', 'Next.js', 'Node.js', 
-  'Tailwind CSS', 'Framer Motion', 'GraphQL', 'Firebase',
-  'PostgreSQL', 'Docker', 'AWS', 'UI/UX Design'
+  'React', 'TypeScript',, 'Node.js', 
+  'Tailwind CSS', 'Framer Motion', 'Firebase',
+  'PostgreSQL','python','Typescript','UI/UX Design'
 ];
 
 export function About() {
@@ -21,15 +21,15 @@ export function About() {
           </h2>
           <div className="space-y-6 opacity-60 text-lg font-light leading-relaxed">
             <p>
-              Com foco absoluto no ecossistema JavaScript/TypeScript, meu objetivo é fundir design disruptivo com arquitetura resiliente. Acredito que a interface é a ponte emocional entre o usuário e o produto.
+              Estudante de ADS (último período) e cofundador da agência The Wavem. Desenvolvedor Full-Stack focado em Node.js, JavaScript, TypeScript, CSS, React e Python.
             </p>
             <p>
-              Minha trajetória é impulsionada pela busca do "Premium Feel" — aquela sensação de fluidez e polimento que separa os sites comuns das experiências memoráveis.
+              Experiência na gestão ponta a ponta de projetos reais, unindo metodologias ágeis, prototipagem e análise técnica. Especializando-se em aplicações Back-End com Node.js. Perfil analítico com inglês avançado e foco na entrega de soluções eficientes.
             </p>
           </div>
 
           <div className="mt-12">
-            <h3 className="text-sm font-bold uppercase tracking-[0.2em] opacity-40 mb-6 font-display">Tech Stack</h3>
+            <h3 className="text-sm font-bold uppercase tracking-[0.2em] opacity 1 mb-6 font-display">Tech Stack</h3>
             <div className="flex flex-wrap gap-3">
               {skills.map((skill) => (
                 <span 
@@ -53,7 +53,7 @@ export function About() {
           <div className="absolute inset-0 bg-white/5 rounded-[2rem] -rotate-3 transition-transform group-hover:rotate-0 duration-700" />
           <div className="relative aspect-square rounded-[2rem] overflow-hidden grayscale contrast-125 hover:grayscale-0 transition-all duration-1000 border border-white/5">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" 
+              src="https://i.imgur.com/SzvDiEo.jpeg" 
               alt="Profile" 
               className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-1000"
             />

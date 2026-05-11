@@ -113,16 +113,12 @@ export function Contact() {
   );
 }
 
-export function Footer() {
+
+   export function Footer() {
   return (
     <footer className="py-12 px-6 border-t border-white/5 mt-24">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 opacity-40">
-        <p className="text-sm">© 2024 Elite Portfolio. Feito com paixão e código.</p>
-        <div className="flex gap-8 text-xs font-bold uppercase tracking-widest">
-          <a href="#" className="hover:text-white transition-colors">Twitter</a>
-          <a href="#" className="hover:text-white transition-colors">Dribbble</a>
-          <a href="#" className="hover:text-white transition-colors">Behance</a>
-        </div>
+      <div className="max-w-7xl mx-auto flex justify-center items-center opacity-40 text-center">
+        <p className="text-sm">Por Eduardo Ian, feito com paixão e código.</p>
       </div>
     </footer>
   );

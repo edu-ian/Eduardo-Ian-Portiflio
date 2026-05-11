@@ -33,14 +33,13 @@ export function Navbar() {
       )}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <motion.a
+       <motion.a
           href="#home"
-          className="text-xl font-display font-bold tracking-tighter"
-          whileHover={{ scale: 1.05 }}
+          className="text-xl font-display font-bold tracking-tighter opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
+          whileHover={{ scale: 1.4 }}
         >
-          ELITE<span className="opacity-50">.DEV</span>
+          Eduardo Ian
         </motion.a>
-
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-8">
           {navLinks.map((link) => (

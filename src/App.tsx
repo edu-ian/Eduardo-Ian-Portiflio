@@ -5,7 +5,7 @@
 
 import { Navbar } from './components/navbar';
 import { Hero } from './components/hero';
-import { About } from './components/about';
+import { About } from './components/About';
 import { Projects } from './components/projects';
 import { Education } from './components/education';
 import { Contact, Footer } from './components/contact';
