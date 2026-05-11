@@ -10,34 +10,34 @@ const projects = [
   {
     title: 'Foca Aqui',
     description: 'Sistema de produtividade minimalista focado na técnica Pomodoro com dashboards analíticos avançados. Projeto de TCC',
-    tags: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
-    image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1200&auto=format&fit=crop',
+    tags: ['React','JavaScript','Node.js','Firebase'],
+    image: 'https://i.imgur.com/tqDoLLv.png',
     link: 'https://focus-up-2ecae.web.app/',
     github: 'https://github.com/edu-ian/focus-up'
   },
   {
-    title: 'Elite Analytics',
-    description: 'Dashboard financeiro premium com visualização de dados em tempo real e relatórios avançados de performance.',
-    tags: ['Next.js', 'D3.js', 'PostgreSQL', 'Framer Motion'],
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop',
-    link: '#',
+    title: 'Wavem',
+    description: 'Serviços especializados em construção de aplicações web e mobile.',
+    tags: ['React','JavaScript','Node.js','Firebase'],
+    image: 'https://i.imgur.com/iTZOFvA.png',
+    link: 'https://thewavem.web.app/',
     github: '#'
   },
   {
-    title: 'Aura Marketplace',
-    description: 'E-commerce de luxo com experiência de checkout otimizada e animações fluidas para marcas de alto padrão.',
-    tags: ['React', 'Node.js', 'Stripe', 'AWS'],
-    image: 'https://images.unsplash.com/photo-1533134486753-c833f0ed4866?q=80&w=1200&auto=format&fit=crop',
-    link: '#',
-    github: '#'
+    title: 'Duda Sitter',
+    description: 'Serviços especializados de Pet Sitter e Dog Walker em Curitiba, PR.',
+    tags: ['React', 'Node.js', 'Typescript', 'Firebase'],
+    image: 'https://i.imgur.com/Y0heHqL.png',
+    link: 'https://duda-sitter.web.app/',
+    github: 'https://github.com/The-Wavem/DudaSitter'
   },
   {
-    title: 'Nexus VR',
-    description: 'Landing page imersiva para equipamentos de realidade virtual com scroll interativo e modelos 3D.',
-    tags: ['Three.js', 'React Three Fiber', 'GSAP', 'Vite'],
-    image: 'https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?q=80&w=1200&auto=format&fit=crop',
-    link: '#',
-    github: '#'
+    title: 'Imobiliaria Valdinei',
+    description: 'plataforma imobiliária, o foco principal desta aplicação foi prototípar e estabelecer uma arquitetura sólida',
+    tags: ['JavaScript', 'React','Firebase'],
+    image: 'https://i.imgur.com/DXlqquw.png',
+    link: 'https://prototipo-valdinei.web.app/',
+    github: 'https://github.com/The-Wavem/imobiliaria_valdinei'
   }
 ];
 
@@ -172,20 +172,6 @@ export function Projects() {
           ))}
         </Swiper>
       </div>
-
-      <motion.div 
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        className="mt-20 text-center"
-      >
-        <motion.a
-          href="#"
-          whileHover={{ scale: 1.05 }}
-          className="inline-block px-12 py-5 bg-white text-black font-bold rounded-2xl tracking-tighter uppercase text-xs hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] transition-all"
-        >
-          Ver portfólio completo
-        </motion.a>
-      </motion.div>
 
       <style dangerouslySetInnerHTML={{ __html: `
         .swiper-slide-thumb-active {
