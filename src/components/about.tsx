@@ -21,7 +21,7 @@ export function About() {
           </h2>
           <div className="space-y-6 opacity-60 text-lg font-light leading-relaxed">
             <p>
-              Estudante de ADS (último período) e cofundador da agência The Wavem. Desenvolvedor Full-Stack focado em Node.js, JavaScript, TypeScript, CSS, React e Python.
+              Estudante de ADS (último período) e cofundador da agência Wavem. Desenvolvedor Full-Stack focado em Node.js, JavaScript, TypeScript, CSS, React e Python.
             </p>
             <p>
               Experiência na gestão ponta a ponta de projetos reais, unindo metodologias ágeis, prototipagem e análise técnica. Especializando-se em aplicações Back-End com Node.js. Perfil analítico com inglês avançado e foco na entrega de soluções eficientes.

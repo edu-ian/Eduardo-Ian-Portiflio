@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Github, Linkedin, Mail, Send } from 'lucide-react';
+import { Github, Linkedin, Mail, Send, MessageCircle } from 'lucide-react';
 
 export function Contact() {
   return (
@@ -28,7 +28,28 @@ export function Contact() {
               </div>
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-30 mb-1">E-mail</p>
-                <a href="mailto:contato@exemplo.com" className="text-lg font-medium hover:opacity-100 opacity-80 transition-opacity">contato@exemplo.com</a>
+                <a href="mailto:eduianbf@gmail.com" className="text-lg font-medium hover:opacity-100 opacity-80 transition-opacity">eduianbf@gmail.com</a>
+              </div>
+            </motion.div>
+
+            <motion.div 
+              whileHover={{ x: 10 }}
+              className="flex items-center gap-6 group cursor-pointer"
+            >
+              <div className="p-4 bg-white/5 rounded-2xl border border-white/5 transition-colors group-hover:border-white/20 group-hover:bg-white/10">
+                <MessageCircle size={24} />
+              </div>
+              <div>
+                <p className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-30 mb-1">WhatsApp</p>
+              
+                <a 
+                  href="https://wa.me/5541992516118?text=Fala%20Eduardo!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar." 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-lg font-medium hover:opacity-100 opacity-80 transition-opacity"
+                >
+                  (41) 99251-6118
+                </a>
               </div>
             </motion.div>
 
@@ -41,7 +62,14 @@ export function Contact() {
               </div>
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-30 mb-1">LinkedIn</p>
-                <a href="#" className="text-lg font-medium hover:opacity-100 opacity-80 transition-opacity">linkedin.com/in/perfil</a>
+                <a 
+                  href="https://www.linkedin.com/in/eduardo-ian-22a3bb397/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-lg font-medium hover:opacity-100 opacity-80 transition-opacity"
+                >
+                  linkedin.com/in/eduardo-ian
+                </a>
               </div>
             </motion.div>
 
@@ -54,7 +82,14 @@ export function Contact() {
               </div>
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-30 mb-1">GitHub</p>
-                <a href="#" className="text-lg font-medium hover:opacity-100 opacity-80 transition-opacity">github.com/perfil</a>
+                <a 
+                  href="https://github.com/edu-ian" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-lg font-medium hover:opacity-100 opacity-80 transition-opacity"
+                >
+                  github.com/edu-ian
+                </a>
               </div>
             </motion.div>
           </div>
@@ -113,8 +148,7 @@ export function Contact() {
   );
 }
 
-
-   export function Footer() {
+export function Footer() {
   return (
     <footer className="py-12 px-6 border-t border-white/5 mt-24">
       <div className="max-w-7xl mx-auto flex justify-center items-center opacity-40 text-center">
